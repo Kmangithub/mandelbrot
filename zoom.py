@@ -70,4 +70,4 @@ for j in range(1, ANZAHL):
     speicher = 'outputneu{}.png'.format(j)
     im.save(speicher, 'PNG')
 
-allebilder[0].save("C:\\Users\\jonas\\Mandelbrot3\\gifpython.gif", save_all=True, append_images=allebilder[1:], optimize=False, duration = 100, loop = 0)
+allebilder[0].save("C:\\Users\\user\\pfad\\gifname.gif", save_all=True, append_images=allebilder[1:], optimize=False, duration = 100, loop = 0)
